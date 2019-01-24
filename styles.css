@@ -1,0 +1,19 @@
+.cvr-image {
+    position: fixed;
+    z-index: -1;
+    width: 99%;
+}
+
+html {
+    background-color: grey;
+}
+
+.content-list {
+    display: flex;
+
+}
+
+.content-image-container {
+    color:red;
+    border: 2px solid gold;
+}
