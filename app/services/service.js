@@ -3,7 +3,7 @@
 function Service ($location) {
     const self = this;
 
-    projectObj = {
+    const projectObj = {
         "project1" : "www.github.com",
         "project2" : "www.woot.com"
     }

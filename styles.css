@@ -1,4 +1,5 @@
 .cvr-image {
+    display: none;
     position: fixed;
     z-index: -1;
     width: 99%;
@@ -10,10 +11,15 @@ html {
 
 .content-list {
     display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 
 }
 
-.content-image-container {
+.content-image-container, .content-text-container {
+    height: 30%;
+    width: 50%;
+    background-color: lightseagreen;
     color:red;
     border: 2px solid gold;
 }
