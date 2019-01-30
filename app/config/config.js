@@ -6,10 +6,16 @@ angular.module("App")
             .when("/", {
                 template: "<homepage></homepage>"
             })
-            .when("/input", {
-                template: "<input></input>"
+            .when("/homepage", {
+                template: "<homepage></homepage>"
             })
-            .when("/output", {
-                template: "<output></output>"
+            .when("/projects", {
+                template: "<projects></projects>"
+            })
+            .when("/contact", {
+                template: "<contact></contact>"
+            })
+            .otherwise("/homepage", {
+                template: "<homepage></homepage>"
             })
 }]);
