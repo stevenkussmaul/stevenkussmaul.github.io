@@ -7,10 +7,22 @@ const projects = {
         const vm = this;
 
 
-        vm.projObj = {
-            key1 : "value1",
-            key2 : "value2"
-        };
+        vm.projObj =
+            [
+                {
+                     Name : "Alfreds Futterkiste",
+                     Country : "Germany"
+                 },{
+                     Name : "Berglunds snabbköp",
+                     Country : "Sweden"
+                 },{
+                     Name : "Centro comercial Moctezuma",
+                     Country : "Mexico"
+                 },{
+                     Name : "Ernst Handel",
+                     Country : "Austria"
+                 }
+             ];
         vm.myArray = ["item1","item2"];
 
 
