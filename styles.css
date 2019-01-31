@@ -1,5 +1,14 @@
 html {
-    background-color: lightblue;
+    background-color: lightgray;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+    background: url("/app/images/background.jpg")
+    no-repeat center fixed;
+    background-size:cover;
+    width:99vw;
+    height: 99vh;
 }
 
 /* elements in index.html */
@@ -8,11 +17,9 @@ html {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
     background-color: black;
-    color: white;
-    text-decoration: none;
-
-
+    height: 10vh;
 }
 
 .nav-bar-left, .nav-bar-right {
@@ -22,18 +29,20 @@ html {
 }
 
 .nav-bar-left {
-
+    margin-left: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .nav-bar-right {
-
+    margin-right: 10%;
 }
 
-.nav-bar-right-item {
+.nav-bar-right-item, .nav-bar-left-item {
     padding: 10px;
     color:white;
     text-decoration: none;
-    border:2px solid red;   
 }
 
 
