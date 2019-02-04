@@ -1,7 +1,7 @@
 "use strict";
 
 angular.module("App")
-    .config(["$routeProvider", "$locationProvider", function($routeProvider, $locationProvider){
+    .config(["$routeProvider", function($routeProvider){
         $routeProvider
             .when("/", {
                 template: "<homepage></homepage>"
