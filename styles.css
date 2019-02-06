@@ -58,18 +58,25 @@ body {
 .content-list {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
+    margin-bottom:20px;
+
 }
 
 .content-list-left, .content-list-right {
-    /* height: 30%; */
-    /* width: 50%; */
+    width: 50%;
     background-color: lightseagreen;
     color:red;
     border: 2px solid gold;
 }
 
 .content-list-left-image {
-    /* height: 100px; */
-    max-width: 130px;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
 }
+
+.thumbnail {
+    width: 50%;
+    height: 50%;
+  }

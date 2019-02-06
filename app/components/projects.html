@@ -1,26 +1,25 @@
 <!-- content section -->
 
-<section class="content-projects" >
+<section class="content-projects">
 
-        <p>a listing of my projects </p> 
+    <p>a listing of my projects </p>
 
-        {{4+4}}
-        
-        <section class="content-list" ng-repeat="project in $ctrl.projObj">
-            <section class="content-list-left">
-                <a href="" class="content-list-left-image"><img ng-src="{{project.img}}" alt="thumbnail"></a>
-            </section>
+    {{4+4}}
 
-            <section class="content-list-right">
-                <p class="content-list-right-text">{{project.url}} </p>
-            </section>
-            
-            <!-- ng-repeat="item in $ctrl.myArray track by $index" -->
-
+    <section class="content-list" ng-repeat="project in $ctrl.projObj">
+        <section class="content-list-left">
+            <a href="{{project.url}}" class="content-list-left-image"><img class="thumbnail" ng-src="{{project.img}}"
+                    alt="thumbnail"></a>
         </section>
 
+        <section class="content-list-right">
+            <p class="content-list-right-text">{{project.url}} </p>
+        </section>
 
-         
+        <!-- ng-repeat="item in $ctrl.myArray track by $index" -->
+
     </section>
-    
-    
+
+
+
+</section>
