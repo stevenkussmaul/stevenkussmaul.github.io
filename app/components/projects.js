@@ -11,19 +11,19 @@ const projects = {
             [
                 {
                     name : "Event Scout",
-                    img:"/images/event-scout.img",
+                    img:"/app/images/projects/thumbnail-event-scout.png",
                     url:"https://stevenkussmaul.github.io/Event-Scout-event-website/",
                     github: "https://github.com/stevenkussmaul/Event-Scout-event-website",
                     description: "Find events from search criteria using Ticketmaster API"                    
                  },{
                     name : "Bioshock Shopping Cart",
-                    img:"/images/bioshock-shopping-cart.img",
+                    img:"/app/images/projects/thumbnail-bioshock-shopping-cart.png",
                     url:"https://stevenkussmaul.github.io/Plasmid-Shopping-Cart/",
                     github: "https://github.com/stevenkussmaul/Plasmid-Shopping-Cart",
                     description: "Shopping cart application with theme from the Bioshock game"  
                  },{
                     name : "Burger Burner",
-                    img:"/images/burger-burner.img",
+                    img:"/app/images/projects/thumbnail-burger-burner.png",
                     url:"https://stevenkussmaul.github.io/Burger-Burner-Excercise-App/",
                     github: "https://github.com/stevenkussmaul/Burger-Burner-Excercise-App",
                     description: "Exercise Calculator Application"  
