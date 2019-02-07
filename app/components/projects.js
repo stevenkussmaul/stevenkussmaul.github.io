@@ -3,7 +3,7 @@
 const projects = {
     templateUrl: "/app/components/projects.html",
     bindings: [],
-    controller: ["Service", function(Service){
+    controller: ["Service","$location", function(Service,$location){
         const vm = this;
 
 
@@ -26,10 +26,22 @@ const projects = {
                     img:"/app/images/projects/thumbnail-burger-burner.png",
                     url:"https://stevenkussmaul.github.io/Burger-Burner-Excercise-App/",
                     github: "https://github.com/stevenkussmaul/Burger-Burner-Excercise-App",
-                    description: "Exercise Calculator Application"  
+                    description: "Fun app that calculates how far away you have to park to burn off the calories you eat at McDonalds."  
                  }
              ];
         vm.myArray = ["item1","item2"];
+
+        let address;
+
+        vm.goRepo = (address) => {
+            console.log(address);
+            $location.url(address);
+        }
+        vm.goPages = (address) => {
+            console.log(address);
+
+            $location.url(address);
+        }
 
 
     }]

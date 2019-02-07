@@ -65,9 +65,9 @@ body {
 
 .content-list-left, .content-list-right {
     width: 50%;
-    background-color: lightseagreen;
-    color:red;
-    border: 2px solid gold;
+    background-color: lightgray;
+    color: blue;
+    border: 2px solid white;
 }
 
 .content-list-left-image {
