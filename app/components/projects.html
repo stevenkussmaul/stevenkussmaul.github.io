@@ -2,27 +2,20 @@
 
 <section class="content-projects">
 
-    <p>a listing of my projects </p>
-
-    {{4+4}}
+    <section>
+        <p><h1>PROJECT LIST</h1></p>
+    </section>
 
     <section class="content-list" ng-repeat="project in $ctrl.projObj">
         <section class="content-list-left">
             <p class="content-list-left-image"><img class="thumbnail" ng-src="{{project.img}}" alt="thumbnail"></p>
         </section>
-
         <section class="content-list-right">
             <p class="content-list-right-heading"><h1>{{project.name}}</h1></p>
             <p class="content-list-right-description"><h1>{{project.description}}</h1></p>
-            <button class="content-list-right-button" ng-href="$ctrl.goPages({{project.github}})"><h1>GitHub Repo</h1></button>
-            <!-- <button class="content-list-right-button"  ng-click="$ctrl.goPages()"><h1>GitHub Pages</h1></button>  address="{{project.github}}" ng-click="$ctrl.goRepo(address)" -->
-
+            <a href="{{project.url}}"><button class="content-list-right-button"><h1>Hosted Site</h1></button></a>    
+            <a href="{{project.github}}"><button class="content-list-right-button"><h1>GitHub Repo</h1></button></a>
         </section>
-
-        <!-- ng-repeat="item in $ctrl.myArray track by $index" -->
-
     </section>
-
-
 
 </section>
