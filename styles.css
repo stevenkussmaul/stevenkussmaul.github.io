@@ -55,7 +55,7 @@ body {
 
 .homepage-container-left {
     width: 66%;
-    border: 2px solid white;
+    /* border: 2px solid white; */
     padding: 20px;
     margin:20px;
 }
@@ -94,4 +94,19 @@ body {
 .thumbnail {
     width: 50%;
     height: 50%;
+  }
+
+  /* elements in contact.html */
+
+  .contact-icon {
+      height:50px;
+      width:auto;
+
+  }
+
+  .contact-container {
+    width: 66%;
+    /* border: 2px solid white; */
+    padding: 20px;
+    margin:20px;
   }
