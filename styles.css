@@ -1,6 +1,7 @@
 html {
     background-color: lightgray;
     font-family: 'Ubuntu', sans-serif;
+    /* height:100%; */
 }
 
 body {
@@ -8,7 +9,7 @@ body {
     no-repeat center fixed;
     background-size:cover;
     width:99vw;
-    /* height: 99vh; */
+    height: 150vh;
 }
 
 /* elements in index.html */

@@ -29,7 +29,6 @@ const projects = {
                     description: "Fun app that calculates how far away you have to park to burn off the calories you eat at McDonalds."  
                  }
              ];
-        vm.myArray = ["item1","item2"];
 
         let address;
 
@@ -39,10 +38,8 @@ const projects = {
         }
         vm.goPages = (address) => {
             console.log(address);
-
             $location.url(address);
         }
-
 
     }]
 }

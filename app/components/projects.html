@@ -6,15 +6,15 @@
         <p><h1>PROJECT LIST</h1></p>
     </section>
 
-    <section class="content-list" ng-repeat="project in $ctrl.projObj">
+    <section class="content-list" ng-repeat="project in $ctrl.projObj track by $index">
         <section class="content-list-left">
             <p class="content-list-left-image"><img class="thumbnail" ng-src="{{project.img}}" alt="thumbnail"></p>
         </section>
         <section class="content-list-right">
             <p class="content-list-right-heading"><h1>{{project.name}}</h1></p>
             <p class="content-list-right-description"><h1>{{project.description}}</h1></p>
-            <a href="{{project.url}}"><button class="content-list-right-button"><h1>Hosted Site</h1></button></a>    
-            <a href="{{project.github}}"><button class="content-list-right-button"><h1>GitHub Repo</h1></button></a>
+            <a href="{{project.url}}" target="_blank"><button class="content-list-right-button"><h1>Hosted Site</h1></button></a>    
+            <a href="{{project.github}}" target="_blank"><button class="content-list-right-button"><h1>GitHub Repo</h1></button></a>
         </section>
     </section>
 
