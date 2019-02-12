@@ -137,4 +137,7 @@ body {
         flex-direction: column;
     
     }
+    .name {
+        font-size: 4vh;
+    }
   }
